@@ -438,6 +438,8 @@ int set_default_values()
 	strcpy(password,"<password>");
 	strcpy(weather_code,"BRXX0043");
 	strcpy(logo_letter,"l");
+	strcpy(eth,"eth0");
+	strcpy(wlan,"wlan0");
 
 	strcpy(defaultcolor, "212526");
 	strcpy(color0, "E6E6E6");
