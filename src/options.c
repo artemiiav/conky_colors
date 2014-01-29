@@ -283,9 +283,9 @@ int options (int argc, char *argv[]) {
 		else OPTION("--wireless", key)
 			set_wireless = True;
 		else OPTION_WITH_VALUE("--eth", key)
-			eth = atoi(value);
+			snprintf(eth, 31, "%s", value);
 		else OPTION_WITH_VALUE("--wlan", key)
-			wlan = atoi(value);
+			snprintf(wlan, 31, "%s", value);
 		else OPTION_WITH_VALUE("--ppp", key)
 			ppp = atoi(value);
 		else OPTION_WITH_VALUE("--weather", key)
