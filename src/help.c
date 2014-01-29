@@ -57,8 +57,8 @@ void help() {
 	printf("\t\t--user=<username> - Type your username\n");
 	printf("\t\t--passwd=<password> - Type your password\n");
 	printf("\t--network - Enable network\n");
-	printf("\t\t--eth=<number> - Change ethernet device [Default=0]\n");
-	printf("\t\t--wlan=<number> - Change wireless device [Default=0]\n");
+	printf("\t\t--eth=<ethernet interace> - Change ethernet device [Default=eth0]\n");
+	printf("\t\t--wlan=<wireless interface> - Change wireless device [Default=wlan0]\n");
 	printf("\t\t--ppp=<number> - Change 3g modem device [Default=0]\n");
 	printf("\t--unit=<C|F>- Force output temperature either in Celius or Fahrenheit\n");
 	printf("\t--weather=<AreaID> - Enable weather[Ex: --weather=BRXX0043]\n");
